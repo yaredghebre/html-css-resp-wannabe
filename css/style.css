@@ -156,4 +156,14 @@ img {
     .why-us .col {
         width: 100%;
     }
+
+   .why-us {
+        background-color: black;
+        margin: -50px 0;
+        padding: 50px 0;
+   }
+
+   body {
+    height: 100vh;
+   }
 }
