@@ -127,17 +127,21 @@ img {
 /************************************************
     SOLUZIONE RESPONSIVE
  ************************************************/
+/* MediaQuery DESKTOP */
+@media screen and (max-width: 1160px) {
+    .container {
+        width: 100vw;
+    }
+}
 
 /* MediaQuery TABLET */
-
- @media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
     .container {
         width: 768px;
     }
- }
+}
 
 /* MediaQuery MOBILE */
-
 @media screen and (max-width: 480px) {
     .container {
         width: 480px;
